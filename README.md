@@ -6,7 +6,7 @@
     * [Assembly Language Tricks for the HACK computer](http://www.dragonwins.com/domains/getteched/csm/CSCI410/references/hack.htm)
 
 
-* This is a simple compiler that can complier from JLang to Hack Assembly.
+* This is a simple compiler that can compile JLang to Hack Assembly.
 
 * This compiler implement these functions:
     * assembly optimization
