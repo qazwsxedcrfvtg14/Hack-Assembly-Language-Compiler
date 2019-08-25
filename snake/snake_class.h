@@ -233,4 +233,4 @@ class Snake{
     static void Init(){
         Call(Snake_Init);
     }
-}
+};
