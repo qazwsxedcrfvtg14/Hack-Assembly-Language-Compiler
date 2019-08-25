@@ -19,7 +19,7 @@
         * return value
     * loop & conditions
         * with variable life cycle in a block.
-    * buildin library
+    * built-in library
         * output
             * draw rectangle
             * draw number
