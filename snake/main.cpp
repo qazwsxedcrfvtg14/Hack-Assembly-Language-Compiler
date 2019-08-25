@@ -8,40 +8,4 @@ Begin
     Math::Init();
     Array::Init();
     Snake::Main();
-    /*
-    Var p,p2;
-    p=Array::Alloc(30);
-    p2=p;
-    Var c,i;
-    c='a';
-    i=0;
-    Loop
-        If(i,==,26)
-            Break
-        End
-        mem[p2]=c;
-        p2++;
-        c++;
-        i++;
-    End
-    String::Set(p,"8787UR87");
-    Output::PrintString(p);
-    while_true();
-    Output::PrintChar('a');
-    Output::PrintChar('b');
-    Output::PrintChar('c');
-    Output::PrintChar('d');
-    Output::PrintChar('e');
-    Output::PrintChar('f');
-    Output::PrintChar('g');
-    Loop
-        Input::Update();
-        Var c;
-        c=Input::Key();
-        If(c,!=,0)
-            Output::PrintChar(c);
-        End
-        Input::Clean();
-    End*/
-    //RPG::Main();
 Finish

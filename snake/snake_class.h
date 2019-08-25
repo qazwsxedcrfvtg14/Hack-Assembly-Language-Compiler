@@ -3,11 +3,11 @@ class Snake{
     static void Title(){
         Call(Snake_Title);
         Output::Clean();
-        }
+    }
     static void GameOver(){
         Call(GameOver,Global["score"]);
         Output::Clean();
-        }
+    }
     static void Sleep(){
         Global["sleep"]=0;
         Global["sleepX"]=0x1000;
@@ -27,7 +27,7 @@ class Snake{
                 Break
             End
         End
-        }
+    }
     public:
     static void Main(){
         Init();
@@ -171,7 +171,6 @@ class Snake{
                 If(gameover,==,1)
                     Break
                 End
-                //Var x,y,xx,yy;
                 y=my;
                 yy=y;
                 yy+=11;
@@ -230,8 +229,8 @@ class Snake{
             End
             Snake::GameOver();
         End
-        }
+    }
     static void Init(){
         Call(Snake_Init);
-        }
-    };
+    }
+}
